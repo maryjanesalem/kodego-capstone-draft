@@ -1,143 +1,105 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html {
-    min-height: 100vh;
-    // min-width: 100vh;
+  min-height: 100vh;
+  // min-width: 100vh;
 }
 
-
 header {
-    width: 100%;
-    // border: 1px solid white;
-    // // position: fixed;
-    position: absolute;
-    top: 0;
-    height: 30em;
-    background-image: url("../../public/images/header1.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: -1px -37px 87px 41px rgba(26,9,51,1) inset;
-    -webkit-box-shadow: -1px -37px 87px 41px rgba(26,9,51,1) inset;
-    -moz-box-shadow: -1px -37px 87px 41px rgba(26,9,51,1) inset;
-    z-index: -3;
+  width: 100%;
+  // border: 1px solid white;
+  // // position: fixed;
+  position: absolute;
+  top: 0;
+  height: 30em;
+  background-image: url("../../public/images/header1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: -1px -37px 87px 41px rgba(26, 9, 51, 1) inset;
+  -webkit-box-shadow: -1px -37px 87px 41px rgba(26, 9, 51, 1) inset;
+  -moz-box-shadow: -1px -37px 87px 41px rgba(26, 9, 51, 1) inset;
+  z-index: -3;
 
-    .browse {
-        text-align: end;
-        // position: absolute;
-        // top: 50%;
-        // left: 50%;
-        margin: 19em auto;
+  .browse {
+    text-align: end;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    margin: 19em auto;
 
-        button {
-            margin-right: 2em;
-        }
+    button {
+      margin-right: 2em;
     }
+  }
 
-    h1.gameon {
-        font-size: 2.5rem;
-            text-shadow: 0px 0px 5px rgba(255, 255, 255, 1), 
-                         0px 0px 10px rgba(255, 255, 255, 1), 
-                         0px 0px 15px rgba(255, 255, 255, 1),
-                         0px 0px 20px rgb(201, 159, 32),
-                         0px 0px 30px rgba(201, 159, 32),
-                         0px 0px 40px rgba(201, 159, 32),
-                         0px 0px 55px rgba(201, 159, 32),
-                         0px 0px 75px rgba(201, 159, 32);
-    }
+  h1.gameon {
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 1),
+      0px 0px 10px rgba(255, 255, 255, 1), 0px 0px 15px rgba(255, 255, 255, 1),
+      0px 0px 20px rgb(201, 159, 32), 0px 0px 30px rgba(201, 159, 32),
+      0px 0px 40px rgba(201, 159, 32), 0px 0px 55px rgba(201, 159, 32),
+      0px 0px 75px rgba(201, 159, 32);
+  }
 }
 
 section.for-carousel {
-    background-color: 26,9,51,1;
-    margin-top: 32em;
+  background-color: 26, 9, 51, 1;
+  margin-top: 32em;
 }
 
 div.topmargin32 {
-    margin-top: 32rem;
-    min-height: 30em;
+  margin-top: 32rem;
+  min-height: 30em;
 }
-
 
 footer {
-    .icon {
-        margin-right: 0.4em;
-    }
+  .icon {
+    margin-right: 0.4em;
+  }
 
-    .social-icon {
-        margin-right: 1em;
-    }
+  .social-icon {
+    margin-right: 1em;
+  }
 }
-
 
 //  G A M E S -----------------------------------------------
 //
 // For Games page
 div#gamesPage {
-    // Games page CSS starts here
-    // You may expand the lines to how long need
+  // Games page CSS starts here
+  // You may expand the lines to how long need
 
 
 
-
-
-
-
-
-
-
-    // Games page CSS / SCSS ends here
+  // Games page CSS / SCSS ends here
 }
-
 
 // A B O U T -----------------------------------------------
-// 
+//
 // For About page
 div#aboutPage {
-    // About page CSS starts here
-    // You may expand the lines to how long need
+  // About page CSS starts here
+  // You may expand the lines to how long need
 
 
 
-
-
-
-
-
-
-
-    // About page CSS / SCSS ends here
+  // About page CSS / SCSS ends here
 }
-
-
 
 // C O N T A C T -----------------------------------------------
-// 
+//
 // For Contact page
 div#contactPage {
-    // Contact page CSS starts here
-    // You may expand the lines to how long need
+  // Contact page CSS starts here
+  // You may expand the lines to how long need
 
 
-
-
-
-
-
-
-
-
-    // Contact page CSS / SCSS ends here
+  
+  // Contact page CSS / SCSS ends here
 }
-
-
-
-
-
-
-
-
