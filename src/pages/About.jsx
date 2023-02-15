@@ -1,7 +1,15 @@
 
+
 const About = () => {
+
   return (
-    <div>About</div>
+    <div id="aboutPage" className="topmargin32">
+      {/* Start coding Below */}
+      {/* For CSS: css>styles.css, code only at --- div#aboutPage */}
+      About page
+
+
+    </div>
   )
 }
 

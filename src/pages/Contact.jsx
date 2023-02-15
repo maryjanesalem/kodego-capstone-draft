@@ -1,7 +1,15 @@
 
+
 const Contact = () => {
+  
   return (
-    <div>Contact</div>
+    <div id="contactPage" className="topmargin32">
+    {/* Start coding Below */}
+    {/* For CSS: css>styles.css, code only at --- div#contactPage */}
+    Contact Page
+
+
+  </div>
   )
 }
 
