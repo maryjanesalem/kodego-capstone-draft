@@ -1,9 +1,18 @@
 import { Link } from "react-router-dom";
-import { FaFacebook, FaTwitter, FaInstagram, FaTwitch } from 'react-icons/fa';
+import {
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+  FaTwitch,
+  FaHome,
+  FaPhone,
+} from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
+import "../css/styles.scss";
 
 const Footer = () => {
   return (
-    <div>
+    <>
       <footer className="bg-dark text-primary py-4">
         <div className="container">
           <div className="row">
@@ -26,17 +35,17 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-primary" to="/">
+                  <Link className="text-primary" style={{}} to="/games">
                     Games
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-primary" to="/">
+                  <Link className="text-primary" style={{}} to="/about">
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-primary" to="/">
+                  <Link className="text-primary" style={{}} to="/Contact">
                     Contact
                   </Link>
                 </li>
@@ -47,14 +56,14 @@ const Footer = () => {
                 <h5 className="text-secondary">Contact Us</h5>
                 <ul className="list-unstyled">
                   <li>
-                    <i className="bi bi-geo-alt-fill me-2"></i>123 Main Street,
-                    City, State ZIP
+                    <FaHome className="icon"></FaHome>123 Main Street, City,
+                    State ZIP
                   </li>
                   <li>
-                    <i className="bi bi-telephone-fill me-2"></i>(555) 555-5555
+                    <FaPhone className="icon"></FaPhone>(808) 808-8888
                   </li>
                   <li>
-                    <i className="bi bi-envelope-fill me-2"></i>info@gamehub.com
+                    <FiMail className="icon"></FiMail>info@gamehub.com
                   </li>
                 </ul>
               </div>
@@ -66,17 +75,17 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/"  className="text-primary">
-                        <FaTwitter></FaTwitter>
+                    <Link to="/" className="text-primary">
+                      <FaTwitter></FaTwitter>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/"  className="text-primary">
-                        <FaInstagram></FaInstagram>
+                    <Link to="/" className="text-primary">
+                      <FaInstagram></FaInstagram>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/"  className="text-primary">
+                    <Link to="/" className="text-primary">
                       <FaTwitch></FaTwitch>
                     </Link>
                   </li>
@@ -110,9 +119,6 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            {/* <div className="col-md-6">
-
-                        </div> */}
           </div>
           <hr className="my-4" />
           <div className="row">
@@ -125,8 +131,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-
-    </div>
+    </>
   );
 };
 
