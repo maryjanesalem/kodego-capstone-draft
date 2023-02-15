@@ -25,6 +25,7 @@ header {
     box-shadow: -1px -37px 87px 41px rgba(26,9,51,1) inset;
     -webkit-box-shadow: -1px -37px 87px 41px rgba(26,9,51,1) inset;
     -moz-box-shadow: -1px -37px 87px 41px rgba(26,9,51,1) inset;
+    z-index: -3;
 
     .browse {
         text-align: end;
@@ -54,4 +55,28 @@ header {
 section.for-carousel {
     background-color: 26,9,51,1;
     margin-top: 26em;
+}
+
+div.topmargin32 {
+    margin-top: 32rem;
+    min-height: 30em;
+}
+
+
+
+// For Games page
+div#gamesPage {
+    // Games page CSS starts here
+
+
+
+
+
+
+
+
+
+
+
+    // Games page CSS / SCSS ends here
 }
