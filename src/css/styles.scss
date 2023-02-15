@@ -18,7 +18,7 @@ header {
     position: absolute;
     top: 0;
     height: 30em;
-    background-image: url("../../public/head-bg1.png");
+    background-image: url("../../public/images/header1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,27 +28,30 @@ header {
 
     .browse {
         text-align: end;
-        position: absolute;
-        top: 65%;
-        left: 0;
+        // position: absolute;
+        // top: 50%;
+        // left: 50%;
+        margin: 19em auto;
+
+        button {
+            margin-right: 2em;
+        }
     }
 
     h1.gameon {
-        font-size: 3rem;
+        font-size: 2.5rem;
             text-shadow: 0px 0px 5px rgba(255, 255, 255, 1), 
                          0px 0px 10px rgba(255, 255, 255, 1), 
                          0px 0px 15px rgba(255, 255, 255, 1),
-                         0px 0px 20px rgba(255,192,3),
-                         0px 0px 30px rgba(255,192,3),
-                         0px 0px 40px rgba(255,192,3),
-                         0px 0px 55px rgba(255,192,3),
-                         0px 0px 75px rgba(255,192,3);
+                         0px 0px 20px rgb(201, 159, 32),
+                         0px 0px 30px rgba(201, 159, 32),
+                         0px 0px 40px rgba(201, 159, 32),
+                         0px 0px 55px rgba(201, 159, 32),
+                         0px 0px 75px rgba(201, 159, 32);
     }
-
-    
 }
 
 section.for-carousel {
     background-color: 26,9,51,1;
-    margin-top: 30em;
+    margin-top: 26em;
 }
