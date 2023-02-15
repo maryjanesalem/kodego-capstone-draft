@@ -19,11 +19,7 @@ const Footer = () => {
             <div className="col-md-5 mb-3 mb-md-0">
               <h5 className="text-secondary">About Us</h5>
               <p>
-                We are a game store that offers a wide variety of games for all
-                types of gamers. Our mission is to provide the best possible
-                gaming experience to our customers. We believe that gaming
-                should be accessible to everyone, and we strive to make that a
-                reality.
+              Welcome to GameHub - where the cool kids of the gaming world come to play! We're all about having fun and taking gaming to the next level. We've got all the latest and greatest games, as well as gaming accessories and merchandise to help you level up. Join the party and let's play!
               </p>
             </div>
             <div className="col-md-3 mb-3 mb-md-0">
@@ -68,25 +64,25 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="row">
-                <ul className="list-unstyled d-flex flex-wrap justify-content-evenly fs-2 mb-0">
+                <ul className="list-unstyled d-flex flex-wrap justify-content-start fs-2 mb-0">
                   <li>
-                    <Link to="/" className="text-primary">
-                      <FaFacebook></FaFacebook>
+                    <Link to="/" className="text-primary mr-5">
+                      <FaFacebook className="social-icon"></FaFacebook>
                     </Link>
                   </li>
                   <li>
                     <Link to="/" className="text-primary">
-                      <FaTwitter></FaTwitter>
+                      <FaTwitter className="social-icon"></FaTwitter>
                     </Link>
                   </li>
                   <li>
                     <Link to="/" className="text-primary">
-                      <FaInstagram></FaInstagram>
+                      <FaInstagram className="social-icon"></FaInstagram>
                     </Link>
                   </li>
                   <li>
                     <Link to="/" className="text-primary">
-                      <FaTwitch></FaTwitch>
+                      <FaTwitch className="social-icon"></FaTwitch>
                     </Link>
                   </li>
                 </ul>
