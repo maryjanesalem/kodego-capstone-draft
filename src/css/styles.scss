@@ -46,6 +46,12 @@ header {
       0px 0px 40px rgba(201, 159, 32), 0px 0px 55px rgba(201, 159, 32),
       0px 0px 75px rgba(201, 159, 32);
   }
+  
+
+}
+
+.btn-link {
+  text-decoration: none!important;
 }
 
 section.for-carousel {
@@ -74,6 +80,37 @@ footer {
 div#gamesPage {
   // Games page CSS starts here
   // You may expand the lines to how long need
+  .topbanner {
+    background-image: url("../../public/images/banner4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 20em;
+  }
+
+
+
+
+
+  // Games page CSS / SCSS ends here
+}
+//  P E R I P E R A L S -----------------------------------------------
+//
+// For Peripherals page
+div#periperalsPage {
+  // Peripherals page CSS starts here
+  // You may expand the lines to how long need
+  .topbanner {
+    background-image: url("../../public/images/banner5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 20em;
+  }
+ 
+
 
 
 
@@ -89,6 +126,10 @@ div#aboutPage {
 
 
 
+
+
+
+
   // About page CSS / SCSS ends here
 }
 
@@ -98,6 +139,9 @@ div#aboutPage {
 div#contactPage {
   // Contact page CSS starts here
   // You may expand the lines to how long need
+
+
+
 
 
   

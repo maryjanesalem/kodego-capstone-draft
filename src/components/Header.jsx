@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import '../css/styles.scss'
+import { FaUserAstronaut, FaShoppingCart } from "react-icons/fa";
+
 
 const Header = () => {
     return (
@@ -23,16 +25,24 @@ const Header = () => {
                                 <Link className="nav-link" to="/games">Games</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link" to="/peripherals">Peripherals</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" to="/about">About</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/contact">Contact</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/">Login</Link>
+                                <Link className="nav-link" to="/cart"><FaShoppingCart></FaShoppingCart></Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/"><FaUserAstronaut></FaUserAstronaut></Link>
+                            </li>
+
                         </ul>
                         <form className="d-flex">
+                            
                             <input className="form-control me-sm-2" type="search" placeholder="Search" />
                             <button className="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                         </form>
@@ -45,7 +55,8 @@ const Header = () => {
                 <div className="browse container ">
                     <div className="">
                         <h1 className="text-white gameon">Get your game on!</h1>
-                        <button type="button" className="btn btn-warning btn-lg">Browse Games</button>
+                        <button type="button" className="btn btn-warning btn-lg">
+                            Browse Games</button>
                     </div>
                 </div>
             </header>
