@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 const NotFound = () => {
   return (
+
     <div id='notFound-page'>
 
       <div className="error container-fluid">

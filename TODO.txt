@@ -72,7 +72,7 @@ OTHERS:
 about:
 Gaming Store Website that sells Games and Gears/Peripherals
 theme:
-Space theme Cyberpunk Color Palette
+Space / Cyberpunk 
 
 
 ---------------------------------------
