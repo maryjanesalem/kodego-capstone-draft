@@ -11,7 +11,7 @@ const About = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6 mb-4 mb-md-0">
-              <img src="" className="img-fluid"/>
+              <img src="/images/banner-v.png" className="img-fluid"/>
             </div>
             <div className="col-md-6">
               <h2 className="mb-4 text-secondary">Who Are We?</h2>
