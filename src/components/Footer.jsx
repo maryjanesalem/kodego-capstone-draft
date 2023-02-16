@@ -13,13 +13,37 @@ import "../css/styles.scss";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-dark text-primary pt-5 py-4">
-        <div className="container">
+      <footer className="bg-dark text-primary  pb-4">
+
+        {/* Wide banner for footer */}
+        <section className="container-fluid wide-banner-bot">
+          <div className="container mx-auto my-5 pt-5">
+            <div className="col-xs-12 col-lg-6 mt-5 pt-5 text-center m-auto">
+
+              <p className="text-white">
+                Join our inner circle of gamers and be the first to know about new releases, exclusive deals, and epic events!
+              </p>
+              <form action="">
+                <div className="form-group d-flex">
+                  <input type="email" className="form-control" aria-describedby="emailHelp" placeholder="Enter email" />
+                  <button type="submit" className="btn btn-secondary">
+                    <Link className="nav-link" to="/">
+                      Subscribe
+                    </Link>
+                  </button>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </section>
+
+        <div className="container pt-5">
           <div className="row">
             <div className="col-md-5 mb-3 mb-md-0">
               <h5 className="text-secondary">About Us</h5>
               <p>
-              Welcome to GameHub - where the cool kids of the gaming world come to play! We're all about having fun and taking gaming to the next level. We've got all the latest and greatest games, as well as gaming products to help you level up. Join the party and let's play!
+                Welcome to GameHub - where the cool kids of the gaming world come to play! We're all about having fun and taking gaming to the next level. We've got all the latest and greatest games, as well as gaming products to help you level up. Join the party and let's play!
               </p>
             </div>
             <div className="col-md-3 mb-3 mb-md-0">

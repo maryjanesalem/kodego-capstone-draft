@@ -255,13 +255,13 @@ const Main = () => {
               <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src="images/banner1.png" className="d-block w-100" alt="..." />
-                  </div>
-                  <div className="carousel-item">
                     <img src="images/banner2.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
                     <img src="images/banner3.png" className="d-block w-100" alt="..." />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="images/banner1.png" className="d-block w-100" alt="..." />
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -371,28 +371,7 @@ const Main = () => {
 
         </div>
 
-        {/* Wide banner for main page bottom */}
-        <section className="container-fluid wide-banner-bot">
-          <div className="container mx-auto my-5 pt-5">
-            <div className="col-md-6 subscribe mt-5 pt-5 text-center m-auto">
 
-              <p className="text-white">
-                Join our inner circle of gamers and be the first to know about new releases, exclusive deals, and epic events!
-              </p>
-              <form action="">
-                <div className="form-group d-flex">
-                  <input type="email" className="form-control" aria-describedby="emailHelp" placeholder="Enter email" />
-                  <button type="submit" className="btn btn-secondary">
-                    <Link className="nav-link" to="/gears">
-                      Subscribe
-                    </Link>
-                  </button>
-                </div>
-              </form>
-
-            </div>
-          </div>
-        </section>
 
       </main>
     </div>
