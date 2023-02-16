@@ -1,5 +1,9 @@
-FOR THE FRONT-END
+---------- C A P S T O N E ----------
+
 NOTE: make sure there is NO ERRORS IN CONSOLE before merging in github.
+
+
+FOR THE FRONT-END
 
 TO FIX:
 
@@ -52,11 +56,16 @@ TO DO in JAVASCRIPT/REACT:
 
 ---CONTACT form Validation
 
+---SUBSCRIPTION form Validation
+
 ---LOGIN form Validation
 
 ---SIGNUP form Validation
 
+---MODALS for successful form submission
+
 ---ADD TO CART button functions
+and modal for successful add to cart
 
 ---CART functions
 auto calculate
