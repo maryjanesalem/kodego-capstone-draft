@@ -13,13 +13,13 @@ import "../css/styles.scss";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-dark text-primary py-4 mt-5">
+      <footer className="bg-dark text-primary pt-5 py-4">
         <div className="container">
           <div className="row">
             <div className="col-md-5 mb-3 mb-md-0">
               <h5 className="text-secondary">About Us</h5>
               <p>
-              Welcome to GameHub - where the cool kids of the gaming world come to play! We're all about having fun and taking gaming to the next level. We've got all the latest and greatest games, as well as gaming accessories to help you level up. Join the party and let's play!
+              Welcome to GameHub - where the cool kids of the gaming world come to play! We're all about having fun and taking gaming to the next level. We've got all the latest and greatest games, as well as gaming products to help you level up. Join the party and let's play!
               </p>
             </div>
             <div className="col-md-3 mb-3 mb-md-0">

@@ -239,7 +239,7 @@ const Main = () => {
         </div>
 
         {/* Wide banner for mid page */}
-        <section className="container-fluid my-5 wide-banner">
+        <section className="container-fluid my-5 wide-banner-mid">
           {/* <img src="images/header2.png" alt="" /> */}
 
         </section>
@@ -354,7 +354,7 @@ const Main = () => {
           </div>
 
           {/* Browse Gears Main */}
-          <section>
+          <section className="mb-5">
             <div className="container text-end my-5">
               <div className="">
                 <h1 className="text-warning">
@@ -369,10 +369,13 @@ const Main = () => {
             </div>
           </section>
 
-
-
-
         </div>
+
+        {/* Wide banner for main page bottom */}
+        <section className="container-fluid wide-banner-bot">
+          {/* <img src="images/header2.png" alt="" /> */}
+
+        </section>
 
       </main>
     </div>

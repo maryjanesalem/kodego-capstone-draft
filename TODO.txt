@@ -1,4 +1,5 @@
-FRONT_END
+FOR THE FRONT-END
+NOTE: make sure there is NO ERRORS IN CONSOLE before merging in github.
 
 TO FIX:
 

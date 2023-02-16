@@ -66,11 +66,8 @@ div.topmargin32 {
 
 
 main {
-  .wide-banner {
+  .wide-banner-mid {
     width: 100%;
-    // height: 30em;
-    // border: 1px solid white;
-    // // position: fixed;
     min-height: 25em;
     background-image: url("../../public/images/header2.png");
     background-position: center;
@@ -80,6 +77,18 @@ main {
     box-shadow: 0px 0px 178px 60px rgba(26,9,51,1) inset;
     -webkit-box-shadow: 0px 0px 178px 60px rgba(26,9,51,1) inset;
     -moz-box-shadow: 0px 0px 178px 60px rgba(26,9,51,1) inset;
+  }
+  .wide-banner-bot {
+    width: 100%;
+    min-height: 25em;
+    background-image: url("../../public/images/header3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: 0px 0px 102px 103px rgba(23,2,41,1) inset;
+    -webkit-box-shadow: 0px 0px 102px 103px rgba(23,2,41,1) inset;
+    -moz-box-shadow: 0px 0px 102px 103px rgba(23,2,41,1) inset;
   }
 }
 
