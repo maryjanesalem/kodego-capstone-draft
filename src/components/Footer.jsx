@@ -13,7 +13,7 @@ import "../css/styles.scss";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-dark text-primary py-4">
+      <footer className="bg-dark text-primary py-4 mt-5">
         <div className="container">
           <div className="row">
             <div className="col-md-5 mb-3 mb-md-0">
