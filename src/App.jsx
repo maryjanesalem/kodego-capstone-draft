@@ -5,7 +5,7 @@ import NotFound from './pages/NotFound';
 import MainLayout from './pages/layout/MainLayout';
 import Contact from './pages/Contact';
 import Main from './components/Main';
-import Peripherals from './pages/Peripherals';
+import Gears from './pages/Gears';
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
                     <Route element={<MainLayout />}>
                         <Route path="/" element={<Main />}></Route>
                         <Route path="/games" element={<Games />}></Route>
-                        <Route path="/peripherals" element={<Peripherals />}></Route>
+                        <Route path="/gears" element={<Gears />}></Route>
                         <Route path="/about" element={<About />}></Route>
                         <Route path="/contact" element={<Contact />}></Route>
 

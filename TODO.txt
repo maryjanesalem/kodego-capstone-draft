@@ -1,0 +1,60 @@
+FRONT_END
+
+TO FIX:
+
+---NAVBAR cart and profile icon
+move them to the right
+
+
+---NAVBAR links to fit container width
+col-12 in bootstrap
+
+
+---NOT FOUND page layout
+center all items horizontally
+fix backgound to stretch to device width and height
+
+
+---ABOUT page
+add image or design
+
+
+---MAIN HEADER fix button on top
+to go to /games when clicked
+
+
+---MAIN segrate contents to different components
+
+
+---FONTS change font styles
+max of 3 different font styles
+
+----------------------------------------
+
+
+TO ADD:
+
+---CART page
+create cart page and design
+
+
+---LOGIN page
+design page
+link the page to nav profile-icon
+
+
+---SIGNUP page
+create signup page
+
+--------------------------------------
+
+
+TO DO in JAVASCRIPT/REACT:
+
+---CONTACT form Validation
+
+---LOGIN form Validation
+
+---SIGNUP form Validation
+
+---ADD TO CART button functions

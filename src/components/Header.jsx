@@ -25,7 +25,7 @@ const Header = () => {
                                 <Link className="nav-link" to="/games">Games</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/peripherals">Peripherals</Link>
+                                <Link className="nav-link" to="/gears">Gears</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/about">About</Link>
@@ -56,7 +56,7 @@ const Header = () => {
                     <div className="">
                         <h1 className="text-white gameon">Get your game on!</h1>
                         <button type="button" className="btn btn-warning btn-lg">
-                            <Link className="nav-link" to="/">Go Back Home</Link>
+                            <Link className="nav-link" to="/games">Browse Games</Link>
                         </button>
                     </div>
                 </div>

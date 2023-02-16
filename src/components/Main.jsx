@@ -228,7 +228,7 @@ const Main = () => {
                 </h1>
                 <button type="button" className="btn btn-warning btn-lg">
                   <Link className="nav-link" to="/games">
-                    Browse Games
+                    Shop Games
                   </Link>
                 </button>
               </div>
@@ -277,7 +277,7 @@ const Main = () => {
         </section>
 
           {/* Latest Gaming Products */}
-          <h1 className="my-5 text-secondary">Latest Gaming Products</h1>
+          <h1 className="my-5 text-secondary">Latest Gears</h1>
           <div className="row">
             <div className="col-md-6 col-lg-3 mb-4">
               <div className="card border-primary">
@@ -287,7 +287,7 @@ const Main = () => {
                   alt="Game 1"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Peripheral 1</h5>
+                  <h5 className="card-title">Gear 1</h5>
                   <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
@@ -305,7 +305,7 @@ const Main = () => {
                   alt="Game 2"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Peripheral 2</h5>
+                  <h5 className="card-title">Gear 2</h5>
                   <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
@@ -323,7 +323,7 @@ const Main = () => {
                   alt="Game 3"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Peripheral 2</h5>
+                  <h5 className="card-title">Gear 2</h5>
                   <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
@@ -341,7 +341,7 @@ const Main = () => {
                   alt="Game 4"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Peripheral 3</h5>
+                  <h5 className="card-title">Gear 3</h5>
                   <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
@@ -352,6 +352,26 @@ const Main = () => {
               </div>
             </div>
           </div>
+
+          {/* Browse Gears Main */}
+          <section>
+            <div className="container text-end my-5">
+              <div className="">
+                <h1 className="text-warning">
+                Play like a champ with our gears!
+                </h1>
+                <button type="button" className="btn btn-warning btn-lg">
+                  <Link className="nav-link" to="/gears">
+                    Shop Gears
+                  </Link>
+                </button>
+              </div>
+            </div>
+          </section>
+
+
+
+
         </div>
 
       </main>

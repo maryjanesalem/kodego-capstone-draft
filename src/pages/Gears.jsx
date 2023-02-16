@@ -2,15 +2,15 @@ import React from "react";
 import { Link } from 'react-router-dom'
 
 
-const Peripherals = () => {
+const Gears = () => {
   return (
-    <div id="periperalsPage" className="topmargin32">
+    <div id="gearsPage" className="topmargin32">
       {/* Start coding Below */}
-      {/* For CSS: css>styles.css, code only at --- div#periperalsPage */}
+      {/* For CSS: css>styles.css, code only at --- div#gearsPage */}
       <div className="container py-5">
         <div className="topbanner"></div>
 
-        <h1 className="my-5 text-secondary">All Peripherals</h1>
+        <h1 className="my-5 text-secondary">All Gears</h1>
 
         <div>
           <ul className="pagination pagination-lg">
@@ -61,7 +61,7 @@ const Peripherals = () => {
                 alt="Game 1"
               />
               <div className="card-body">
-                <h5 className="card-title">Peripheral 1</h5>
+                <h5 className="card-title">Gear 1</h5>
                 <p className="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
@@ -79,7 +79,7 @@ const Peripherals = () => {
                 alt="Game 2"
               />
               <div className="card-body">
-                <h5 className="card-title">Peripheral 2</h5>
+                <h5 className="card-title">Gear 2</h5>
                 <p className="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
@@ -97,7 +97,7 @@ const Peripherals = () => {
                 alt="Game 3"
               />
               <div className="card-body">
-                <h5 className="card-title">Peripheral 2</h5>
+                <h5 className="card-title">Gear 2</h5>
                 <p className="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
@@ -115,7 +115,7 @@ const Peripherals = () => {
                 alt="Game 4"
               />
               <div className="card-body">
-                <h5 className="card-title">Peripheral 3</h5>
+                <h5 className="card-title">Gear 3</h5>
                 <p className="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
@@ -136,7 +136,7 @@ const Peripherals = () => {
                 alt="Game 1"
               />
               <div className="card-body">
-                <h5 className="card-title">Peripheral 1</h5>
+                <h5 className="card-title">Gear 1</h5>
                 <p className="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
@@ -154,7 +154,7 @@ const Peripherals = () => {
                 alt="Game 2"
               />
               <div className="card-body">
-                <h5 className="card-title">Peripheral 2</h5>
+                <h5 className="card-title">Gear 2</h5>
                 <p className="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
@@ -172,7 +172,7 @@ const Peripherals = () => {
                 alt="Game 3"
               />
               <div className="card-body">
-                <h5 className="card-title">Peripheral 2</h5>
+                <h5 className="card-title">Gear 2</h5>
                 <p className="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
@@ -190,7 +190,7 @@ const Peripherals = () => {
                 alt="Game 4"
               />
               <div className="card-body">
-                <h5 className="card-title">Peripheral 3</h5>
+                <h5 className="card-title">Gear 3</h5>
                 <p className="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
@@ -206,4 +206,4 @@ const Peripherals = () => {
   );
 };
 
-export default Peripherals;
+export default Gears;
