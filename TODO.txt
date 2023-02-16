@@ -7,24 +7,24 @@ TO FIX:
 move them to the right
 
 
----NAVBAR links to fit container width
+---NAVBAR align links to footer width
+links to fit container width
 col-12 in bootstrap
 
 
----NOT FOUND page layout
-center all items horizontally
-fix backgound to stretch to device width and height
+---NOT FOUND page 
+fix layout or create new page
+game/space/cyberpunk theme
 
 
----MAIN HEADER fix button on top
-to go to /games when clicked
+---MAIN organize contents
+segregate contents to different components
+import those components to Main.jsx
 
 
----MAIN segrate contents to different components
-
-
----FONTS change font styles
-max of 3 different font styles
+---FONTS import font-family
+max of 3 different font-family
+change font styles
 
 ----------------------------------------
 
@@ -32,16 +32,18 @@ max of 3 different font styles
 TO ADD:
 
 ---CART page
-create cart page and design
+create and design cart page 
 
 
 ---LOGIN page
 design page
 link the page to nav profile-icon
+add link to sign-up
 
 
 ---SIGNUP page
 create signup page
+add link to login
 
 --------------------------------------
 
@@ -55,3 +57,22 @@ TO DO in JAVASCRIPT/REACT:
 ---SIGNUP form Validation
 
 ---ADD TO CART button functions
+
+---CART functions
+auto calculate
+with increment decrement delete functions
+
+---API for Payment
+
+---------------------------------------
+
+OTHERS:
+
+---POWERPOINT create presentation
+about:
+Gaming Store Website that sells Games and Gears/Peripherals
+theme:
+Space theme Cyberpunk Color Palette
+
+
+---FOR GEARS data:

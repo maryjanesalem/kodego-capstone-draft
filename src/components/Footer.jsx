@@ -36,6 +36,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link className="text-primary" style={{}} to="/gears">
+                    Gears
+                  </Link>
+                </li>
+                <li>
                   <Link className="text-primary" style={{}} to="/about">
                     About
                   </Link>
@@ -120,7 +125,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-12">
               <p className="text-center text-primary">
-                Copyright &copy; 2023 Gamehub WD-30 Group-8. All rights
+                Copyright &copy; 2023 Group-8 KodeGo WD30. All rights
                 reserved.
               </p>
             </div>

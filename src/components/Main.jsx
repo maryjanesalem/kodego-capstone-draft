@@ -251,30 +251,30 @@ const Main = () => {
 
           {/* Main > Second Carousel */}
           <section>
-          <div className="container h-50 pt-5 mt-5">
-            <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <img src="images/banner1.png" className="d-block w-100" alt="..." />
+            <div className="container h-50 pt-5 mt-5">
+              <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img src="images/banner1.png" className="d-block w-100" alt="..." />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="images/banner2.png" className="d-block w-100" alt="..." />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="images/banner3.png" className="d-block w-100" alt="..." />
+                  </div>
                 </div>
-                <div className="carousel-item">
-                  <img src="images/banner2.png" className="d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                  <img src="images/banner3.png" className="d-block w-100" alt="..." />
-                </div>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Previous</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Next</span>
+                </button>
               </div>
-              <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-              </button>
-              <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-              </button>
             </div>
-          </div>
-        </section>
+          </section>
 
           {/* Latest Gaming Products */}
           <h1 className="my-5 text-secondary">Latest Gears</h1>
@@ -356,9 +356,9 @@ const Main = () => {
           {/* Browse Gears Main */}
           <section className="mb-5">
             <div className="container text-end my-5">
-              <div className="">
+              <div className="margin-bot8">
                 <h1 className="text-warning">
-                Play like a champ with our gears!
+                  Play like a champ with our gears!
                 </h1>
                 <button type="button" className="btn btn-warning btn-lg">
                   <Link className="nav-link" to="/gears">
@@ -373,8 +373,25 @@ const Main = () => {
 
         {/* Wide banner for main page bottom */}
         <section className="container-fluid wide-banner-bot">
-          {/* <img src="images/header2.png" alt="" /> */}
+          <div className="container mx-auto my-5 pt-5">
+            <div className="col-md-6 subscribe mt-5 pt-5 text-center m-auto">
 
+              <p className="text-white">
+                Join our inner circle of gamers and be the first to know about new releases, exclusive deals, and epic events!
+              </p>
+              <form action="">
+                <div className="form-group d-flex">
+                  <input type="email" className="form-control" aria-describedby="emailHelp" placeholder="Enter email" />
+                  <button type="submit" className="btn btn-secondary">
+                    <Link className="nav-link" to="/gears">
+                      Subscribe
+                    </Link>
+                  </button>
+                </div>
+              </form>
+
+            </div>
+          </div>
         </section>
 
       </main>

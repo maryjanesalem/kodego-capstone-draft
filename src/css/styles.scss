@@ -24,7 +24,7 @@ header {
   box-shadow: -1px -37px 87px 41px rgba(26, 9, 51, 1) inset;
   -webkit-box-shadow: -1px -37px 87px 41px rgba(26, 9, 51, 1) inset;
   -moz-box-shadow: -1px -37px 87px 41px rgba(26, 9, 51, 1) inset;
-  z-index: -3;
+  // z-index: -3;
 
   .browse {
     text-align: end;
@@ -62,6 +62,7 @@ section.for-carousel {
 div.topmargin32 {
   margin-top: 32rem;
   min-height: 30em;
+  margin-bottom: 5rem;
 }
 
 
@@ -90,8 +91,12 @@ main {
     -webkit-box-shadow: 0px 0px 102px 103px rgba(23,2,41,1) inset;
     -moz-box-shadow: 0px 0px 102px 103px rgba(23,2,41,1) inset;
   }
-}
 
+  .margin-bot8 {
+    margin-bottom: 8em;
+  }
+
+}
 
 
 
