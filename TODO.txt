@@ -16,10 +16,6 @@ center all items horizontally
 fix backgound to stretch to device width and height
 
 
----ABOUT page
-add image or design
-
-
 ---MAIN HEADER fix button on top
 to go to /games when clicked
 
