@@ -74,6 +74,38 @@ footer {
   }
 }
 
+//  N O T F O U N D -----------------------------------------------
+//
+// For NOT FOUND page
+#notFound-page {
+  // NOT FOUND page CSS starts here
+  // You may expand the lines to how long need
+  width: 100%;
+  min-height: 100%!important;
+  background-color: #360187!important;
+  padding: 0;
+  margin: 0;
+
+  .error {
+    background-image: url("../../public/images/error.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80%;
+    // height: 80%;
+    min-height: 80vh;
+
+    // box-shadow: 0px 0px 267px 200px rgba(54,1,135,1);
+    // -webkit-box-shadow: 0px 0px 267px 200px rgba(54,1,135,1);
+    // -moz-box-shadow: 0px 0px 267px 200px rgba(54,1,135,1);
+  }
+
+
+
+
+
+  // NOT FOUND page CSS / SCSS ends here
+}
 //  G A M E S -----------------------------------------------
 //
 // For Games page

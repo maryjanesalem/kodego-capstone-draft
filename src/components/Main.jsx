@@ -1,10 +1,11 @@
+import { Link } from 'react-router-dom'
 
 
 const Main = () => {
   return (
     <div>
-        
-        {/* MAIN */}
+
+      {/* MAIN */}
       <main className="">
         <div className="container py-5">
 
@@ -134,7 +135,9 @@ const Main = () => {
             <div className="container text-end my-5">
               <div className="">
                 <h1 className="text-warning">Discover your new favorite game!</h1>
-                <button type="button" className="btn btn-warning btn-lg">Browse Games</button>
+                <button type="button" className="btn btn-warning btn-lg">
+                  <Link className="nav-link" to="/games">Browse Games</Link>
+                </button>
               </div>
             </div>
           </section>
