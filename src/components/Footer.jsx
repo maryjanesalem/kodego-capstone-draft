@@ -13,7 +13,7 @@ import "../css/styles.scss";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-dark text-primary  pb-4">
+      <footer className="bg-dark text-primary pb-4">
 
         {/* Wide banner for footer */}
         <section className="container-fluid wide-banner-bot">

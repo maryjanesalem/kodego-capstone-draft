@@ -34,12 +34,17 @@ const Header = () => {
                                 <Link className="nav-link" to="/contact">Contact</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link" to="/register">Register</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/login">Login</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" to="/cart"><FaShoppingCart></FaShoppingCart></Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/"><FaUserAstronaut></FaUserAstronaut></Link>
                             </li>
-
                         </ul>
                         <form className="d-flex">
 
@@ -49,7 +54,6 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-
 
         </div>
     )
