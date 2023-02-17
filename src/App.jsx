@@ -6,6 +6,8 @@ import MainLayout from './pages/layout/MainLayout';
 import Contact from './pages/Contact';
 import Main from './components/Main';
 import Gears from './pages/Gears';
+import Login from './pages/Login';
+import Register from './pages/Signup';
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
                         <Route path="/gears" element={<Gears />}></Route>
                         <Route path="/about" element={<About />}></Route>
                         <Route path="/contact" element={<Contact />}></Route>
+                        <Route path="/login" element={<Login />}></Route>
+                        <Route path="/register" element={<Register />}></Route>
 
                     </Route>
                     <Route path='*' element={<NotFound />} />
