@@ -33,6 +33,7 @@ links to fit container width
 col-12 in bootstrap
 
 
+(IMPORTANT!)
 ---NOT FOUND page 
 fix layout or create new page
 game/space/cyberpunk theme
@@ -48,6 +49,7 @@ max of 3 different font-family
 change font styles
 
 
+(IMPORTANT!)
 ---ROUTES pages should open from top of the header
 when routing to different page
 
