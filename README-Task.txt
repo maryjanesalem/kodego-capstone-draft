@@ -1,6 +1,23 @@
 ---------- C A P S T O N E ----------
 
-NOTE: make sure there is NO ERRORS IN CONSOLE before merging in github.
+IMPORTANT NOTE: make sure there is NO ERRORS IN CONSOLE before merge.
+fix conflicts first before merging
+
+After Merge:
+Update your branch before coding
+Github App > Branch > Update from Main
+
+
+
+Add more suggestions here for task needed for our project
+
+Delete the finished task
+
+-------------------------------------------------------
+
+    T   A   S   K   
+
+--------------------------------------------------------
 
 
 FOR THE FRONT-END
@@ -29,6 +46,13 @@ import those components to Main.jsx
 ---FONTS import font-family
 max of 3 different font-family
 change font styles
+
+
+---ROUTES pages should open from top of the header
+when routing to different page
+
+
+
 
 ----------------------------------------
 
