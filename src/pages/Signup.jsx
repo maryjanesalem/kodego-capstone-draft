@@ -37,7 +37,7 @@ const Register = () => {
     }
 
     return (
-        <div className="card topmargin32 bottom-marg5 container col-md-5 col-xl-3 border-warning mb-3 p-4 text-white">
+        <div className="card topmargin32 bottom-marg5 container col-md-5 col-xl-3 border-secondary mb-3 p-4 text-white">
             <form>
                 <fieldset>
                     <legend className="text-center text-warning">Register</legend>

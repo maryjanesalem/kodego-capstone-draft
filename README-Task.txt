@@ -65,15 +65,6 @@ TO ADD:
 create and design cart page 
 
 
----LOGIN page
-design page
-link the page to nav profile-icon
-add link to sign-up
-
-
----SIGNUP page
-create signup page
-add link to login
 
 --------------------------------------
 
