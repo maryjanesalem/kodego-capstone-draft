@@ -41,7 +41,7 @@ const Login = () => {
         <>
         {/* <div className="container topmargin32 w-30 mx-auto"> */}
 
-        <div className="card topmargin32 bottom-marg5 container col-md-5 col-xl-3 border-warning mb-3 p-4 text-white">
+        <div className="card topmargin32 bottom-marg5 container col-md-5 col-xl-3 border-secondary mb-3 p-4 text-white">
                 <form>
                     <fieldset className="text-white">
                         <legend className="text-center text-warning">Login</legend>
